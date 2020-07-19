@@ -6,4 +6,8 @@ if country == 'taiwan':
 		print('you can have a driving license')
 	else:
 		print('you cannot have a driving license yet.')
-		
+elif country == 'america':
+	if age >= 16:
+		print('you can have a driving license')
+	else:
+		print('you cannot have a driving license yet.')
